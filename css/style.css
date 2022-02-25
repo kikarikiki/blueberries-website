@@ -1,0 +1,539 @@
+@import url(https://fonts.googleapis.com/css?family=Pontano+Sans|Gafata);
+
+body {
+    background-image: url('../img/stripedBackground.jpg');
+    margin:0 auto;
+    width: 100%;
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 1em;}
+a {text-decoration: none; font-family: 'Pontano Sans', sans-serif; color: #19388A;}
+a:hover {color: #0c2871;text-decoration: underline;}  
+
+h2{text-align:center;font-family: 'Gafata', sans-serif; font-weight: 400;}
+table{
+    width:100%;
+    margin:0 auto;
+    padding:0;}
+li {list-style: none;}
+.liItemDetailsTop_Adresse{padding: 2%;font-size: 1.2em;}
+.liItemDetailsTop_Oeffnung{padding: 2%;font-size: 1em;}
+#wrapHome {
+    position: relative;
+    max-width: 900px;
+    height: 730px;
+    margin: 0 auto;
+    padding-top: 5%;
+    }
+#imgHome {
+    position: absolute;
+    z-index: 600;
+    right: 0;
+    max-width:100%;
+    }
+#circleHome {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+    -webkit-border-radius: 50% 50%;
+    -moz-border-radius: 50% 50%;
+    border-radius: 50% 50%;
+    display: table;
+    position: absolute;
+    text-align: center;
+    z-index: 700;
+    width: 150px!important;
+    height: 150px!important;
+    background-color: #e2ef0f;
+    margin-left: 40%;
+    margin-top: 45%;
+    border: 12px solid white;
+    color: #19388a;}
+#circleHome p{
+    display: table-cell;
+    vertical-align: middle;}
+    #wrapNav {
+    position: relative;
+    display: table;
+    width: 50%;
+    float: left;
+    z-index: 700;}
+#menu {
+    float: left;
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;}
+#menu ul {
+    position: absolute;
+    z-index: 500;
+    max-width: 70%;
+    width: 70%;
+    height: auto;
+    margin-top: 15%;
+    padding-left:0;}
+#menu li {
+    background-color: #e2ef0f; 
+    margin: 4% 2% 2% 0;
+    padding: 3% 2% 3% 10%;	
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: left;}                    
+#Logo {
+    width: 70%;
+    position: absolute;
+    right: 0;}
+#Logo img{
+    position: absolute;
+    z-index: 600;
+    right: 0;
+    width: 100%;
+    height: auto;}	
+#wrapGallery {
+    position: relative;
+    width: 100%;}
+.galleryImages {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 14px solid white;
+    display: table;
+    position: absolute;
+    float: right;
+    width: 58.6%;
+    right: 0;
+    z-index: 600;}
+.rslides {
+    position: relative;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;}
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;}
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;}
+.rslides li img {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: table;
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;}
+#openingHours {
+    display: -webkit-box;      
+    display: -moz-box;         
+    display: -ms-flexbox;    
+    display: -webkit-flex; 
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    color: #07277c;
+    /*margin-top: 55%;*/
+    margin-bottom: 25%;
+    /*padding-top: 30%;*/}
+.outer {flex: auto;}
+.inner {width:400px; text-align: center;}
+.detailsTop {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius:50%;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    text-align: justify;
+    margin: 0 auto;
+    height: 400px;
+    width: 100%;
+    display: table;
+    vertical-align: middle;background-color: white;}
+.detailsTop ul {    
+    margin: 0 auto;
+    padding: 5% 0 0 0;
+    text-align: center;
+    color: #07277c;
+    vertical-align: middle;
+    display: table-cell;}
+#imgHome {
+    position: relative;
+    width: 100%;}
+#imgHome img{
+    position: absolute;
+    width: 100%;}
+#wrapService {width: 100%;padding-top:0%;}
+#wrapPrices {
+    margin: 0 auto;
+    height: 780px;
+    max-width: 780px;
+    position: relative;
+    background-image: url('../img/blueCircle.png');
+    background-attachment: scroll;
+    background-size: contain;
+    background-repeat: no-repeat;}	
+#prices {
+    display: -webkit-box;   
+    display: -moz-box;    
+    display: -ms-flexbox;      
+    display: -webkit-flex;     
+    display: flex;           
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    max-width: 100%;}
+.flexWrap { 
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    color: white;
+    padding-bottom: 5%;}
+.flexLeftCol {    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding-right: 30px;
+    padding-left: 50px;
+    margin-left: 50px;}
+.flexRightCol {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-right: 50px;}
+.flexSpace {}
+.col {width: 210px;}
+#prices table {color: white;height: 100%;}
+#prices td {padding: 0;margin: 0;}
+#wrapContact {
+    clear: both;
+    position: relative;
+    margin-top: 90px;}
+.map {
+    position: relative;
+    padding-bottom: 60%;
+    height: 0;
+    overflow: hidden;}
+.map img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    }
+.contactFlexWrap{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;}
+.flexConBlank {-webkit-box-flex:3;-webkit-flex:3;-ms-flex:3;flex:3;position: relative;}    
+.flexCon {
+        -webkit-box-flex:1;
+            -webkit-flex:1;
+                -ms-flex:1;
+                    flex:1;
+            display:flex;
+        -webkit-flex-direction:column; 
+        -ms-flex-direction:column; 
+        flex-direction:column;
+        position: relative;
+        width: 280px;}
+.innerFlexCon {
+    -webkit-box-flex:1;
+        -webkit-flex:1;
+            -ms-flex:1;
+                flex:1;
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display: flex; 
+    -webkit-box-orient:vertical; 
+    -webkit-box-direction:normal; 
+    -webkit-flex-direction:column; 
+        -ms-flex-direction:column; 
+            flex-direction:column;
+    position:absolute;
+    width:100%;
+    height:280px;
+    background-image: url('../img/kontaktCircle_310.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    text-align:center;
+    bottom: 0;}
+.contactCircle {
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;}
+.contactCircle img {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    max-width: 280px;}
+.contactInfo {
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+        -ms-flex-direction:column;
+            flex-direction:column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 280px;}
+.contactInfo ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+            padding-left: 0;
+            padding-top: 6%;
+    color: white;
+    }
+.contactCircle ul li {padding: 0;}
+#impressum {
+    color: #19388A;
+    text-align: center;
+    list-style: outside none none;
+    }
+#impressum a:hover {color:#e2ef0f; }
+div.panel,p.flip {margin: -20px auto;}
+p.flip {
+    background: #ddd;
+    border: solid 1px #fff;}
+div.panel {
+    width: 100%;
+    border-left: solid 1px #fff;
+    border-right: solid 1px #fff;
+    height: 175px;
+    display: none;}
+
+
+@media screen and (max-width: 900px) {
+    #wrapHome {height: 0; padding-bottom: 70%;}
+    #wrapService {padding-top: 15%;}
+    .innerFlexCon {height: 225px;}
+    .contactInfo {height: 225px;}
+}
+
+@media screen and (max-width: 830px) {
+    .contactInfo ul {font-size: 0.9em;}
+}
+
+@media screen and (max-width: 780px) {
+.flexWrap {padding-bottom: 18%;}
+}  
+
+@media screen and (max-width: 729px) {
+        
+#galleryImages {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;border: 11px solid white;}
+}
+    
+ 
+    
+@media screen and (max-width: 700px) {
+#galleryImages {border: 9px solid white;}
+#circleHome {border: 8px solid white;}
+#wrapNav {width:50%;margin-left:0px;}
+#menu ul {
+        position: absolute;
+        z-index: 9;
+        max-width: 70%;
+        width: 70%;
+        height: auto;
+        padding-left:0;}
+#Logo img {width:85%;margin-top:15%;}
+#detailsTop {width:100%;}
+
+}
+
+@media screen and (max-width: 680px) {
+    #wrapPrices {max-height: 500px;
+    padding-bottom: 0px;
+    background-image: none;}
+    #prices table {color: #07277c;}
+    .flexWrap {padding-bottom: 18%;}
+    .medium {margin: 0;}
+    .col {color: #07277c;}
+.innerFlexCon {height: 160px;}
+    .contactInfo {height: 160px;}
+    .contactInfo ul {font-size: 0.70em;}   
+}        
+    
+    
+@media screen and (max-width: 580px) {
+    .flexLeftCol {padding: 0px;}
+    .flexRightCol {padding: 0px;}
+    .col {padding-left: 5%;padding-right: 5%;}
+    .contactInfo ul {font-size: 0.65em;}
+}
+
+@media screen and (max-width: 525px) {
+    #wrapPrices {max-height: 780px;padding-top: 15%;}
+    .col {padding-right: 12%;padding-left: 12%;}
+}
+ 
+@media screen and (max-width: 480px) {
+    #wrapHome {max-height: 340px;width:100%; margin-top: 5%;padding-top: 0;}
+    #wrapNav {width: 47%;}
+    #menu ul {margin-top: 10%;}
+    #Logo {width: 69%!important;}
+    #Logo img {margin-top: 0;}
+    #imgHome {display:none;}
+    #openingHours
+    .detailsTop {background: none;}
+    .col {padding-left: 12%; padding-right: 12%;}
+    #wrapGallery{margin-top:0;padding-top: 8%;}
+    .galleryImages {width: 85%;right:7%;}
+    #liItemMenuKontakt {display: none;}
+    #circleHome p{display: none;}
+    #circleHome {
+            margin-left: 72%;
+            margin-top: 72%;
+            width: 80px!important;
+            height: 80px!important;}
+     #wrapContact {height: 100%;}
+    .flexConBlank {flex:0;}
+    .flexCon {width: 480px; margin-right: 10%; margin-left: 10%;}
+    .innerFlexCon {height: 280px;}
+    .contactInfo {height:280px;}
+    .contactInfo ul {
+            -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            font-size: 19px;}
+    .map {padding-bottom: 170%;}
+}
+@media screen and (max-width: 420px) {
+    .map {padding-bottom: 180%;}
+}
+@media screen and (max-width: 360px) {
+    #galleryImages {border: 6px solid white;}
+    #circleHome {
+        margin-left: 76%;
+        margin-top: 72%;
+        width: 40px!important;
+        height:40px!important;
+        border: 5px solid white;}
+    #wrapNav {width: 38%;}
+    #menu {display: none;}
+    #Logo {width: 100%!important;}
+    .col {padding-left: 12%;padding-right: 12%;}
+}
+    
+@media screen and (max-width: 330px){ 
+    .innerFlexCon {height: 260px;}
+    .contactInfo {height:260px;}
+    .contactInfo ul {font-size: 1rem;}
+    .map {padding-bottom: 195%;}
+}
+           
+@media screen and (max-width: 320px) {
+    #prices {margin: 0 auto;padding: 5%;}
+    #menu {display: none;}
+    #wrapNav {width: 35%;}
+    #Logo {width: 95%;}
+    #wrapContact {margin-top: 125px;}
+}
+
+@media screen and (max-width: 280px) {
+.col {width: 100%; padding-left: 5%; padding-right: 5%;}
+#wrapContact {margin-top: 160px;}
+.map {padding-bottom: 200%;}
+.flexCon {width: 280px;}
+.contactInfo ul {margin-bottom: 6%;}
+}
+
+@media screen and (max-width: 250px) {
+    .innerFlexCon {height: 200px;}
+    .contactInfo {height: 200px;}
+    .contactInfo ul {font-size: 0.9rem;}
+}
